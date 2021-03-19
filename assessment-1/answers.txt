@@ -1,0 +1,40 @@
+1. What is the difference between a class variable and an instance variable? What does `self.ATTRIBUTE` give you the ability to do that `ATTRIBUTE` does not?
+
+    Your answer: Class variable applies to everything within that class (think global), while instance variables are unique to each instance within the class.
+    self.ATTRIBUTE allows you to give a unique attribute to each parameter(?) in an instance. 
+    EX: name is the attribute in this instance
+     
+     class Dog:
+    
+    #class attributes applies to every dog 
+        eyes = 2
+        legs = 4
+        tail = 1
+    
+    #instance attributes name is different for every dog. NAME does not allow you to provide a unique name for every dog, while self.name does
+        def__init__(self, name):
+            self.name = name
+
+
+
+2. List and describe all the `git` commands you commonly use to create a pull request
+
+    Your answer: 
+    1.) git clone = clone the url after you've forked and it clones the assignment to your vs code
+    2.) git checkout -b = creates a new branch to work on instead of master branch
+    3.) git add . = add any changes you've made to the file/assignment 
+    4.) git commit -m = add details about the file/assignment ex: git commit -m "Taylor's assessment 1 PY"
+    5.) git push = push back up to github (master/main branch) and then create pull request 
+
+
+
+3. Can you describe what recursion is? What does every recursive method need?
+
+    Your answer: recursion is a function that calls itself. Every recursive function requires a base case and a recursive case.
+
+
+4. What are Python libraries and why are they used?
+
+    Your answer: a set of commonly used functions that you can implement into your code. 
+    They are used to simplify the programming process and condense your code (think shortcuts).
+
